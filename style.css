@@ -6,7 +6,7 @@ h1 {
 }
 .nav {
   background-color: white;
-
+  display: flex;
 }
 
 .nav img {
@@ -32,11 +32,13 @@ h1 {
 }
 
 #links a {
+
   color: #232D2F;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding: 10px;
+  padding-top: 0px;
   display: block;
   border-bottom: solid 1px #232D2F;
 }
@@ -52,4 +54,48 @@ text-align: center;
 
 #logo:hover {
   transform: translate(10px);
+}
+
+#social {
+  text-align: right;
+  list-style: none;
+  display: flex;
+  }
+
+#social a {
+  float: right;
+  text-decoration: none;
+  color: #232D2F;
+  font-size: 1.7em;
+}
+
+.strip {
+  width: 100%;
+  background-image: url(img/strip.jpg);
+  height: 200px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.morecontent {
+  margin-top: 20px;
+  background-color: grey;
+  height: 700px;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  #myname {
+    font-size: 2em;
+  }
+  #myrole {
+    font-size: 1.5em;
+  }
+
+  .strip {
+    height: 120px;
+  }
 }
