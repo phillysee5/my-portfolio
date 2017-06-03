@@ -1,16 +1,16 @@
 
-.nav {
-  background-color: #E3FBDB;
-}
-
 h1 {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  color: #526B5C;
+  color: #33342D;
+}
+.nav {
+  background-color: white;
+
 }
 
-h1:hover {
-  color: #739681;
+.nav img {
+  background-color: #232D2F;
 }
 
 #myname {
@@ -28,15 +28,17 @@ h1:hover {
   list-style: none;
   display: flex;
   padding-left: 100px;
+
 }
 
 #links a {
-  color: black;
+  color: #232D2F;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding: 10px;
   display: block;
+  border-bottom: solid 1px #232D2F;
 }
 
 .descripton {
@@ -45,9 +47,9 @@ text-align: center;
 
 #logo {
   position: absolute;
-  transition: all 1s;
+  transition: all 600ms;
 }
 
 #logo:hover {
-  transform: translate(20px);
+  transform: translate(10px);
 }
